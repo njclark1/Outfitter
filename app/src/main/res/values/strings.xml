@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Outfitter</string>
+    <string name="get_started">Get Started</string>
+    <string name="networkimage">networkImage</string>
+    <string name="load_image">Load Image</string>
+    <string name="hats">Hats</string>
+    <string name="mainScreen">TODO</string>
+    <string name="shirtview">shirtview</string>
+    <string name="hatview">hatView</string>
+    <string name="pantview">pantView</string>
+    <string name="todo">TODO</string>
+    <string name="wardrobe">Wardrobe</string>
+
+    <string-array name="Hats">
+        <item>Hat</item>
+        <item>Playstation</item>
+        <item>Placeholder</item>
+    </string-array>
+
+    <string-array name="Shirts">
+        <item>Shirt</item>
+        <item>Long-Sleeve Grey</item>
+        <item>Jean Jacket</item>
+    </string-array>
+
+    <string-array name="Pants">
+        <item>Pants</item>
+        <item>Black Shorts</item>
+        <item>Placeholder</item>
+    </string-array>
+
+    <string-array name="Shoes">
+        <item>Shoes</item>
+        <item>Black Boots</item>
+        <item>Placeholder</item>
+    </string-array>
+
+
+</resources>

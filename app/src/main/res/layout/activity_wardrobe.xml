@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8BBD0"
+    tools:context=".Wardrobe">
+
+
+    <Spinner
+        android:id="@+id/hatSpinner"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="128dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/hatView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/shirtSpinner"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/shirtView"
+        app:layout_constraintTop_toBottomOf="@+id/hatSpinner" />
+
+    <Spinner
+        android:id="@+id/pantSpinner"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="112dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/pantView"
+        app:layout_constraintTop_toBottomOf="@+id/shirtSpinner" />
+
+    <Spinner
+        android:id="@+id/shoeSpinner"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="112dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/shoeView"
+        app:layout_constraintTop_toBottomOf="@+id/pantSpinner" />
+
+    <ImageView
+        android:id="@+id/hatView"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="76dp"
+        android:contentDescription="@string/hatview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.171"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <ImageView
+        android:id="@+id/shirtView"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_marginStart="80dp"
+        android:contentDescription="@string/shirtview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hatView"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <ImageView
+        android:id="@+id/pantView"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_marginStart="80dp"
+        android:contentDescription="@string/pantview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/shirtView"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <ImageView
+        android:id="@+id/shoeView"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="80dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.135"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pantView"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="monospace"
+        android:text="@string/wardrobe"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
