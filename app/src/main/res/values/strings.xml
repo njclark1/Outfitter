@@ -14,19 +14,27 @@
     <string-array name="Hats">
         <item>Hat</item>
         <item>Playstation</item>
-        <item>Placeholder</item>
+        <item>Black Benie</item>
     </string-array>
 
     <string-array name="Shirts">
         <item>Shirt</item>
         <item>Long-Sleeve Grey</item>
         <item>Jean Jacket</item>
+        <item>Tube Top</item>
+        <item>Orange Sweater</item>
+        <item>Purple Sweater</item>
+        <item>Brown Sweater</item>
+        <item>White Tank</item>
+        <item>Pink Tank</item>
+        <item>Nude Blouse</item>
     </string-array>
 
     <string-array name="Pants">
         <item>Pants</item>
         <item>Black Shorts</item>
-        <item>Placeholder</item>
+        <item>Flower Skirt</item>
+        <item>BlueJean Shorts</item>
     </string-array>
 
     <string-array name="Shoes">
